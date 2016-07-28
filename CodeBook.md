@@ -48,19 +48,28 @@ The following files are available for the train and test data. Their description
 ##There are 5 parts:
 
 Merge the training and the test sets to create one data set.
+
 Extracts only the measurements on the mean and standard deviation for each measurement.
+
 Uses descriptive activity names to name the activities in the data set
+
 Appropriately labels the data set with descriptive activity names.
+
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
 #How run_analysis.R implements the above steps:
 
 Sets the path_used variable to the current working directory.
+
 Make sure it is in the UCI HAR Dataset folder.
+
 Loads the Data from the folder .
+
 Merges the data using rbind and cbind fuction.
+
 Names the variable approproately
+
 Uses gsub function.
 And finally creates a new file tidy_data.txt containing the tidy data.
 
