@@ -73,3 +73,19 @@ Names the variable approproately
 Uses gsub function.
 And finally creates a new file tidy_data.txt containing the tidy data.
 
+
+#Variables Used:
+
+Activity_Test  : Test labels
+Activity_Train : Trsining Labels
+
+Feature_Test : Test data
+Feature_Train : Training data
+
+Feature_Names : Names of activities
+
+Data : Prefinal Dataset with measurements of mean and standart deviation.
+
+New_Data: final required data.
+
+
